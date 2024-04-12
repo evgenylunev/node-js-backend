@@ -1,0 +1,17 @@
+Here is restful service with ExpressJS/NodeJS with Sequelize persistence with the following metadata for CallRecording object:
+
+
+1. ToPhoneNo
+2. FromPhoneNo
+3. Duration
+4. TimeWhenOccured
+5. isRobocall
+ 
+
+Web service will have following functionality
+1. Create User
+2. Login User
+3. Create a call recording
+4. Get call recordings by Date&time, UserId, fromNo and supports pagination
+5. Update a call recording to mark as a robocall
+6. Delete a call recording

@@ -1,0 +1,697 @@
+{
+	"info": {
+		"_postman_id": "0a244792-e904-44cf-91f0-928ced3d203c",
+		"name": "elunev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/ring/dash",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE2MDE0MjYyNTgsImV4cCI6MTYwMTQzNjI1OH0.4F1BpgEEGjo8ZOl1-kfnxIFrp4PGyUZ-URqE8Hr-waQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/ring/dash",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"dash"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "user1",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "pass1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls/id?id=21",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE2MDE0MjYyNTgsImV4cCI6MTYwMTQzNjI1OH0.4F1BpgEEGjo8ZOl1-kfnxIFrp4PGyUZ-URqE8Hr-waQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "use1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "pass1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls/id?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"call",
+						"id"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjpudWxsLCJpYXQiOjE2MDA5ODM2NDMsImV4cCI6MTYwMDk5MzY0M30.UjkeE4YnP7HOA7R2fIKsZg4vd1xvAytYUGzeqgMNGYY",
+							"disabled": true
+						},
+						{
+							"key": null,
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjpudWxsLCJpYXQiOjE2MDA5ODM2NDMsImV4cCI6MTYwMDk5MzY0M30.UjkeE4YnP7HOA7R2fIKsZg4vd1xvAytYUGzeqgMNGYY",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "use1",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/users/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "user2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pass2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "19",
+							"type": "text"
+						},
+						{
+							"key": "to_phone_num",
+							"value": "(906) 456-78-99",
+							"type": "text"
+						},
+						{
+							"key": "from_phone_num",
+							"value": "(456) 112-09-91",
+							"type": "text"
+						},
+						{
+							"key": "duration",
+							"value": "3210",
+							"type": "text"
+						},
+						{
+							"key": "time_when_occured",
+							"value": "2020-09-29T17:45:13.212",
+							"type": "text"
+						},
+						{
+							"key": "is_robocall",
+							"value": "false",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "use1",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "pass1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls/between-dates?start=2017-09-21 00:00:00&end=2020-09-29 23:59:59&page=0&size=20",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "start",
+							"value": "2020-09-21 00:00:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "end",
+							"value": "2020-09-25 23:59:59",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls/between-dates?start=2017-09-21 00:00:00&end=2020-09-29 23:59:59&page=2&size=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls",
+						"between-dates"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2017-09-21 00:00:00"
+						},
+						{
+							"key": "end",
+							"value": "2020-09-29 23:59:59"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "size",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "29",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "21",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls/?page=1&size=4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "page",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "size",
+							"value": "4",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls/?page=1&size=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls/by-user-id?user_id=8&page=3&size=2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/ring/calls/by-user-id?user_id=33&page=3&size=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls",
+						"by-user-id"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "33"
+						},
+						{
+							"key": "page",
+							"value": "3"
+						},
+						{
+							"key": "size",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls/from-number?from=(879)654-43-21&page=0&size=5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls/from-number?from=(879)654-43-21&page=0&size=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls",
+						"from-number"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "(879)654-43-21"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "user7",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pass7",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/calls/between-dates?start=2017-09-21 00:00:00&end=2020-09-29 23:59:59&page=0&size=20",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "start",
+							"value": "2020-09-21 00:00:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "end",
+							"value": "2020-09-25 23:59:59",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/calls/between-dates?start=2017-09-21 00:00:00&end=2020-09-29 23:59:59&page=1&size=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"calls",
+						"between-dates"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2017-09-21 00:00:00"
+						},
+						{
+							"key": "end",
+							"value": "2020-09-29 23:59:59"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/users",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJpYXQiOjE2MDE0NDI0NTIsImV4cCI6MTYwMTQ1MjQ1Mn0.E5EcaV3uD9ldCDL2lUTe_jk7w5naSxlZU3BX0KOLg-E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "user5",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pass5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/ring/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ring/users",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJpYXQiOjE2MDE0NDI1OTIsImV4cCI6MTYwMTQ1MjU5Mn0.A1wyBbXnpfTwRDlAL4rr7QX1FfOKb-bx2DX8rBQpxJM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/ring/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ring",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
