@@ -12,7 +12,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE2MDE0MjYyNTgsImV4cCI6MTYwMTQzNjI1OH0.4F1BpgEEGjo8ZOl1-kfnxIFrp4PGyUZ-URqE8Hr-waQ",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -53,7 +53,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE2MDE0MjYyNTgsImV4cCI6MTYwMTQzNjI1OH0.4F1BpgEEGjo8ZOl1-kfnxIFrp4PGyUZ-URqE8Hr-waQ",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -89,12 +89,12 @@
 					"query": [
 						{
 							"key": "token",
-							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjpudWxsLCJpYXQiOjE2MDA5ODM2NDMsImV4cCI6MTYwMDk5MzY0M30.UjkeE4YnP7HOA7R2fIKsZg4vd1xvAytYUGzeqgMNGYY",
+							"value": "Bearer ",
 							"disabled": true
 						},
 						{
 							"key": null,
-							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjpudWxsLCJpYXQiOjE2MDA5ODM2NDMsImV4cCI6MTYwMDk5MzY0M30.UjkeE4YnP7HOA7R2fIKsZg4vd1xvAytYUGzeqgMNGYY",
+							"value": "Bearer ",
 							"disabled": true
 						},
 						{
@@ -157,7 +157,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -233,7 +233,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer",
 						"type": "text"
 					},
 					{
@@ -301,7 +301,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -337,7 +337,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -383,7 +383,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -437,7 +437,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer",
 						"type": "text"
 					}
 				],
@@ -481,7 +481,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -564,7 +564,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE2MDE0NDMwMTYsImV4cCI6MTYwMTQ1MzAxNn0.kMe1X5dFk5mdkiwSeRobXSsy5flqK4O5nCIlBvh_mlk",
+						"value": "Bearer ",
 						"type": "text"
 					},
 					{
@@ -632,7 +632,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJpYXQiOjE2MDE0NDI0NTIsImV4cCI6MTYwMTQ1MjQ1Mn0.E5EcaV3uD9ldCDL2lUTe_jk7w5naSxlZU3BX0KOLg-E",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
@@ -673,7 +673,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJpYXQiOjE2MDE0NDI1OTIsImV4cCI6MTYwMTQ1MjU5Mn0.A1wyBbXnpfTwRDlAL4rr7QX1FfOKb-bx2DX8rBQpxJM",
+						"value": "Bearer ",
 						"type": "text"
 					}
 				],
