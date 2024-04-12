@@ -1,17 +1,4 @@
 # RingCentral
-This is my first experience in developing REST services on Node.js (used to build it on Java frameworks)
- – so thank you for your patience as it entailed extensive learning curve and
-please, be gracious to possible faults.
-I decided to choose the proposed technology as  it is always exciting to learn something new 
-and the knowledge might be quite beneficial to the project which we discussed during the interview.
-As suggested in the task I used Express JS framework and Sequelize for persistence layer with MySQL database underneath.
-
-Since the requirements impose very little restrictions and the application is developed more as prototype or demonstrator 
-I tried to keep it as simple as possible I assumed that Users are provided only for authorization purposes (‘users’ table) 
-and all phone call data will be contained in another table (‘calls’). 
-As there was no special requirement for user to 'own' a call 
-so two tables will not be in relationship (like one-to-one, one-to-many etc.) and all calls are accessible by all users. .
-On the other hand Sequelize supports model associations - so a relationship of some sort can be added if needed. 
 
 The application is designed in accordance with MVC pattern but obviously without 'Views'.
 
